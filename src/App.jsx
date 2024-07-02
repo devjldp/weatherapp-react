@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
 
     // Define our URL:
-    const URL = 'http://api.weatherapi.com/v1/forecast.json?key=0f58f193d7be4365a50193908231008&q=Cardiff&days=3&aqi=no&alerts=no'
+    const URL = 'https://api.weatherapi.com/v1/forecast.json?key=0f58f193d7be4365a50193908231008&q=Cardiff&days=3&aqi=no&alerts=no'
 
     // Create the function:
     async function fetchData(){
